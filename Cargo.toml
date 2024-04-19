@@ -1,6 +1,6 @@
 [package]
 name = "profane-rs"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 authors = [ "MabelMedia LLC" ]
 description = "Check Messages For Profanity/Swearing."

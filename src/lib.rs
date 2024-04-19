@@ -16,9 +16,11 @@ pub fn tidy_message(message: &str, strict_ascii: bool) -> String {
 pub fn contains_profanity(message: &str, strict_ascii: bool) -> bool {
     let message = tidy_message(message, strict_ascii);
     let profanity = include_str!("Profanity.csv").split(',').collect::<Vec<&str>>();
-    for word in profanity.iter() {
-        if message.contains(word) {
-            return true;
+    for profanity_word in profanity {
+        for message_word in message.split(' ') {
+            if message_word == profanity_word {
+                return true;
+            }
         }
     }
     false
