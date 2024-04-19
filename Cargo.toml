@@ -1,0 +1,12 @@
+[package]
+name = "profane-rs"
+version = "0.0.3"
+edition = "2021"
+authors = [ "MabelMedia LLC" ]
+description = "Check Messages For Profanity/Swearing."
+license = "MIT"
+documentation = "https://github.com/MabelMedia-LLC/profane-rs"
+homepage = "https://github.com/MabelMedia-LLC/profane-rs"
+repository = "https://github.com/MabelMedia-LLC/profane-rs"
+
+[dependencies]

@@ -1,2 +1,2 @@
 # profane-rs
-profane-rs: Rust Profanity Checker Crate.
+profane-rs - A Rust Crate To Check Messages For Profanity/Swearing.
